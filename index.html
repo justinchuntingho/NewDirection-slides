@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Facebooking Nationalism: The Construction of Hong Kong nationalism on Facebook</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section data-background="bg1.jpg">
+
+                <p>
+  			    <h3 style = "background-color:rgba(0,0,0,0.7);">Facebooking Nationalism: <br>Construction of Hong Kong Nationalism on Facebook</h3>
+                <br>
+                <h3 style = "background-color:rgba(0,0,0,0.7);">Justin Chun-ting Ho</h3>
+                <h4 style = "background-color:rgba(0,0,0,0.7);">University of Edinburgh</h4>
+                <br>
+                <h4 style = "background-color:rgba(0,0,0,0.9);">Slides available: http://bit.ly/HKDigitalResearch</h4>
+  			    </p>
+  			  </section>
+         <!--
+              <section>
+                <h3>Brief History of Hong Kong</h3>
+              </section>
+              <section data-background="queencome.png">
+                  <h3 style = "background-color:rgba(0,0,0,0.7);">The British colonised <br>Hong Kong in 1842</h3>
+              </section>
+              <section data-background="queenbye.gif">
+                  <h3 style = "background-color:rgba(0,0,0,0.7);">The British left</h3>
+              </section>
+              <section data-background="chinatookover.jpg">
+                  <h3 style = "background-color:rgba(0,0,0,0.7);">The Chinese took over in 1997</h3>
+              </section>
+              <section data-background="protest.jpg">
+                  <h3 style = "background-color:rgba(0,0,0,0.7);">Things didn't work out well</h3>
+              </section>
+          -->
+              <section>
+                <h3>Key Research Question:</h2>
+                    <h4>What are the principal elements in the discursive constitution of Hong Kong nationalism?</h4>
+              </section>
+              <section>
+                <h2>Methodology</h2>
+              </section>
+              <section>
+                <div  style="text-align: left;">
+                    <p>Data Source: Facebook pages of major Hong Kong nationalist groups.</p>
+                    <p>Analysis: A mixed method approach of <span class="highlight-red">Critical Discourse Analysis (CDA)</span> and <span class="highlight-blue">Computational Text Analysis</span></p>
+                </div>
+              </section>
+              <section>
+                <h2>Why Facebook?</h2>
+              </section>
+              <section data-background="umbrella.jpg">
+                  <div style = "background-color:rgba(0,0,0,0.7);">
+
+                  <h3>Why Facebook?</h3>
+                <ul><li>An important platform of political communication <small>(Michael Chan, Hsuan-Ting Chen & Francis L.F. Lee, 2016; <br>Hsuan-Ting Chen, Michael Chan & Francis L.F. Lee, 2016; <br>Francis L.F. Lee & Joseph Man Chan, 2015; Gary Tang & Francis L.F. Lee, 2013)</small></li>
+                    <li>A major channel of mobilization during the Umbrella Movement <small>(Paul S. N. Lee, Clement Y. K. So & Louis Leung, 2015)</small></li>
+                    <li>All nationalist groups use Facebook</li></ul>
+                </div>
+              </section>
+              <section>
+                <h3>Text Analysis</h3>
+                    <p><ul>
+                    <li>Systematic analysis of large-scale text collections (using computer progarmmes)</li>
+                    <li>Draws on techniques from Natural Language Processing</li>
+                    <li>Augmenting close reading, not replacing<br>
+                    <small>(Read Grimmer and Stewart (2013) for the pitfalls of Text Analysis)</small></li></ul></p>
+              </section>
+              <section>
+                <h2>Preliminary Findings<br>(Text Analysis)</h2>
+              </section>
+              <section>
+                <h3>Data</h3>
+                    <p><ul><li>Facebook page of <i>Hong Kong Indigenous, Youngspiration<sup>*</sup>, Hong Kong National Party, Reforming Hong Kong, etc</i></li>
+                        <li>Collected with NetVizz, tokenised with Python, analysed with R</li>
+                        <li>8,783 posts, average of 70 characters per post, mostly Chinese but also English</li></ul></p>
+                        <small><sup>*</sup>Special thanks to Dr. Chung-hong Chan and Prof. King-wa Fu for sharing the data</small>
+              </section>
+              <section>
+                <h2>Topic Modeling</h2>
+              </section>
+              <section>
+                <img src="blei.png" height="580"><br>
+                <small>(David Blei, 2012)</small>
+            </section>
+              <section>
+                  <section>
+                      <img src="perplexity.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+                  <section>
+                      <img src="ldatuning.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+              </section>
+              <section>
+                <section data-background-color="#ffffff" data-background-iframe="https://justinchuntingho.github.io/NewDirection-slides/vis/#topic=1&lambda=0.6&term=" data-background-interactive>
+                </section>
+                  <section>
+                      <img src="60topics_rel_label.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+                  <section>
+                      <img src="relevance.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+              </section>
+                  <section>
+                      <img src="topic_rho_network.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+            <section>
+                <section data-background-color="#ffffff" data-background-iframe="D3.html" data-background-interactive>
+                </section>
+                  <section>
+                      <img src="topic_out_network.png" class="stretch" style="background:none; border:none; box-shadow:none;"><br>
+                  </section>
+            </section>
+              </section>
+              <section>
+                <h2>Next Steps</h2>
+              </section>
+              <section>
+                  <h3>
+                <ol><li>Visual Content</li>
+                    <li>Comments</li></ol>
+                </h3>
+            </section>
+              <section>
+                  <h2>Thank You!</h2>
+                <h4>Twitter: @justin_ct_ho<br>Github: justinchuntingho<br>Email: Justin.Ho@ed.ac.uk</h4>
+              </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+                slideNumber: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
